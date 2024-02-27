@@ -1,0 +1,221 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+@font-face {
+  font-family: Days;
+  src: url(DAYS.TTF);
+}
+@font-face {
+  font-family: OpenRundeBold;
+  src: url(OPENRUNDE-BOLD.OTF);
+}
+@font-face {
+  font-family: OpenRundeMed;
+  src: url(OPENRUNDE-MEDIUM.OTF);
+}
+*{
+  transition: 1s;
+}
+body{
+  background-color: #ebfaee;
+  
+}
+.nav{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #63a375  ;
+  height: 80px;
+  width:100%;
+}
+.nav img{
+  flex:2;
+  padding-right: 30px;
+}
+.nav a{
+  display: flex;
+  color: white;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  font-family: OpenRundeMed;
+  letter-spacing: 4px;
+  text-decoration: none;
+  flex:1;
+}
+.nav a:hover{
+  background-color:white;
+  color:  #63a375 ;
+  letter-spacing: 10px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+}
+
+#header img {
+  /* Adjust the size of the image */
+  width: 200%; /* Change the percentage to make the image smaller or larger */
+  max-width: 600px; /* Optionally, set a maximum width to ensure it doesn't exceed a certain size */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: -100px;
+}
+
+.headText{
+  font-family: Days;
+  letter-spacing: 10px;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0.5%;
+  height: 600px;
+}
+#bar{
+  background-color:rgba(99,136,113,30%);
+  height:3px;
+}
+#general{
+  display:flex; 
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(99,136,113,30%);
+  margin:10%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+#statements{
+  display: flex;
+  flex-direction: row;
+  
+}
+#text h1{
+  font-family: OpenRundeBold;
+  font-size: 45px;
+}
+
+#statements h1{
+  font-family: OpenRundeBold;
+  font-size: 30px;
+
+}
+#mStatement{
+  text-align: left;
+  padding: 30px;
+  font-size: 20px;
+  justify-content: left;
+}
+#vStatement{
+  text-align: left;
+  font-size: 20px;
+  padding: 30px;
+}
+
+#footer{
+  display: flex;
+  justify-content: center;
+  font-family: Verdana;
+  padding:20px;
+  font-size:15pt;
+  background-color:#63a375;
+  text-align: left;
+}
+
+#imgside{
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 30%;
+}
+
+#imgside *{
+  flex:1;
+}
+#imgside h3{
+  font-size:20pt;
+  color:white;
+}
+#imgside a{
+  text-decoration: none;
+  padding:5px;
+  margin-left:10px;
+  color:rgba(0, 0, 0, 0.767);
+  letter-spacing: 1px;
+}
+#imgside a:hover{
+  letter-spacing: 2px;
+}
+
+
+#infoside{
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#infoside *{
+  flex:1;
+}
+#infoside h3{
+  font-size:20pt;
+  color:white;
+}
+#infoside a{
+  text-decoration: none;
+  padding:5px;
+  margin-left:10px;
+  color:rgba(0, 0, 0, 0.767);
+  letter-spacing: 1px;
+}
+#infoside a:hover{
+  letter-spacing: 2px;
+}
+
+.mvs{
+  font-family:OpenRundeBold;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.mvs p{
+  font-family:OpenRundeBold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 20;
+  padding-right: 20;
+}
+.mvs:hover{
+  font-family:OpenRundeBold;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
